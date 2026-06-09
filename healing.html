@@ -533,6 +533,10 @@
     text-decoration: none;
   }
 
+  /* Hide intro text on success */
+  .ml-form-successBody.row-success ~ * .form-intro-text,
+  .row-success ~ .form-intro-text { display: none; }
+  
   /* MOBILE */
   @media (max-width: 768px) {
     nav { padding: 1rem 1.5rem; }
@@ -619,7 +623,7 @@
 
     <div class="form-wrap">
       <h3>Download Your Free Healing Guide</h3>
-      <p>Enter your details and we'll send it straight to you</p>
+      <p class="form-intro-text">Enter your details and we'll send it straight to you</p>
 
       <!-- MailerLite Embedded Form -->
       <div id="mlb2-42372422" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-42372422">
@@ -669,6 +673,8 @@
           var $ = ml_jQuery || jQuery;
           $('.ml-subscribe-form-42372422 .row-success').show();
           $('.ml-subscribe-form-42372422 .row-form').hide();
+          $('.form-intro-text').hide();
+          $('.form-wrap h3').hide();
         }
       </script>
       <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
