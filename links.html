@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David C. Y. Edwards — Links</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C97A;
+    --dark: #0A0A0A;
+    --dark-mid: #141414;
+    --dark-card: #1A1A1A;
+    --text: #E8E0D0;
+    --text-muted: #A09880;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark);
+    background: radial-gradient(circle at 50% 0%, var(--dark-mid) 0%, var(--dark) 60%);
+    color: var(--text);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .logo {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .divider {
+    width: 80px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    margin-bottom: 2.5rem;
+  }
+
+  .links {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .link-card {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    background: var(--dark-card);
+    border: 1px solid rgba(201,168,76,0.15);
+    border-top: 2px solid var(--gold);
+    color: var(--text);
+    text-decoration: none;
+    padding: 1.1rem 1.4rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+
+  .link-card:hover {
+    background: #21201a;
+    border-color: var(--gold);
+    color: var(--gold-light);
+    transform: translateY(-2px);
+  }
+
+  .link-card.featured {
+    background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+    color: var(--dark);
+    border-top: none;
+    font-weight: 600;
+  }
+
+  .link-card.featured:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+  }
+
+  .icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  footer a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+  <div class="logo">David C. Y. Edwards</div>
+  <p class="tagline">Author of <em>Auntie Gertrude</em><br>One Woman's Victory Over Sickness Through Christ</p>
+  <div class="divider"></div>
+
+  <div class="links">
+
+    <a href="https://davidcyedwards.com/healing" class="link-card featured">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.35-9.5-8.5C.5 9 2 5 6 5c2 0 3.5 1.2 4.5 3 1-1.8 2.5-3 4.5-3 4 0 5.5 4 3.5 7.5C19 16.65 12 21 12 21z"/></svg>
+      </span>
+      Free Healing Guide
+    </a>
+
+    <a href="https://www.amazon.co.uk/dp/B0H2NP1243" class="link-card" target="_blank">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z" opacity="0"/><path d="M6 2v20l6-3 6 3V2z"/></svg>
+      </span>
+      Pre-order Auntie Gertrude
+    </a>
+
+    <a href="https://www.youtube.com/@davidcyedwards" class="link-card" target="_blank">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+      </span>
+      YouTube
+    </a>
+
+    <a href="https://www.instagram.com/davidcyedwards" class="link-card" target="_blank">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </span>
+      Instagram
+    </a>
+
+    <a href="https://www.tiktok.com/@davidcyedwards" class="link-card" target="_blank">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+      </span>
+      TikTok
+    </a>
+
+    <a href="https://www.facebook.com/profile.php?id=61590107954180" class="link-card" target="_blank">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </span>
+      Facebook
+    </a>
+
+    <a href="https://davidcyedwards.com" class="link-card" target="_blank">
+      <span class="icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+      </span>
+      Author Website
+    </a>
+
+  </div>
+
+  <footer>
+    &copy; 2026 David C. Y. Edwards. Published by <a href="https://davidcyedwards.com#publisher">Pillar &amp; Rock</a>.
+  </footer>
+
+</body>
+</html>
