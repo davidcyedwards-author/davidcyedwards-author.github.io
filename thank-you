@@ -1,0 +1,20 @@
+<section class="thank-you-page">
+  <p class="thank-you-label">THANK YOU</p>
+  <h1 class="thank-you-title">Your Healing Guide Is On Its Way</h1>
+  <div class="accent-line"></div>
+  <p class="thank-you-text">
+    Check your inbox — and your spam folder, just in case — for
+    <em>"God's Medicine For Your Body"</em>.
+  </p>
+  <p class="thank-you-verse">
+    "He sent His word and healed them, and delivered them from their destructions."
+    <br><span class="verse-ref">— Psalm 107:20</span>
+  </p>
+
+  <div class="book-cta">
+    <p class="book-cta-label">WHILE YOU'RE HERE</p>
+    <h3 class="book-cta-title">Auntie Gertrude</h3>
+    <p class="book-cta-text">One Woman's Victory Over Sickness Through Christ</p>
+    <a href="https://www.amazon.com/Auntie-Gertrude-Victory-Sickness-Director-ebook/dp/B0H2NP1243/" class="book-cta-button">Get the Book on Amazon</a>
+  </div>
+</section>
